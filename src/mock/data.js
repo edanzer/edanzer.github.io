@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I've build building and managing complex WordPress, web, and software projects for over 10 years.",
+    "I've build building and managing complex web and software projects for over 10 years.",
   paragraphTwo:
     'My past projects include Imagely, Photocrati, and NextGEN Gallery (the most popular gallery plugin for WordPress with 30 million downloads). Currently, I run Reactr, WPRealEstate, and ShowThemes.',
   paragraphThree:
-    'Technologies I work with include PHP, Laravel, JavaScript, ES6+, Node, React, Redux, Gatsby, Gulp, Grunt, Webpack, Git, Docker, Google Cloud, AWS, Lambdas, and more.',
+    'Technologies I work with include PHP, Laravel, JavaScript, ES6+, Node, React, Redux, Gatsby, Express, Gulp, Grunt, Webpack, Git, Docker, Google Cloud, AWS, Lambdas.',
   paragraphFour: 'Learn more about me here:',
   resume: 'https://github.io/edanzer', // if no resume, the button will not show up
 };
@@ -34,7 +34,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'reactr-homepage.png',
     title: 'Reactr',
-    info: 'This is my main Web agency. We build and manage WPRealEstate, ShowThemes, and other projects. In the past, we also built and managed Imagely, NextGEN Gallery, and Photocrati. We periodically do client work.',
+    info: 'This is my main web agency. We build and manage WPRealEstate, ShowThemes, and other projects. In the past, we also built and managed Imagely, NextGEN Gallery, and Photocrati. We periodically do client work.',
     info2: '',
     url: 'https://reactr.io',
     repo: '', // if no repo, the button will not show up
@@ -53,9 +53,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'conference-pro.png',
     title: 'ShowThemes',
-    info: 'ShowThemes make a highly tailors WordPress theme and plugin for large conference events. Again, the theme comes with beautiful starting designs and endless customization options.',
+    info: 'ShowThemes makes highly tailored WordPress products for conference and event managers. Our WordPress theme comes with beautiful starting designs and endless customization options.',
     info2:
-      'The Conference plugin allows users to create sessions, speakers, calendars, and exhibitors that can all be linked and displayed. It also with Eventbrite for ticket sales.',
+      'Our plugin, called Conference, allows users to manage sessions, speakers, calendars, and exhibitors. It also integrates with Eventbrite for ticket sales.',
     url: 'https://showthemes.com',
     repo: '', // if no repo, the button will not show up
   },
