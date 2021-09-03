@@ -9,18 +9,22 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hi. My name is ",
-  name: "Erick Danzer.",
-  subtitle: "I'm a freelance WordPress & JavaScript developer.",
+  title: 'Hi. My name is ',
+  name: 'Erick Danzer.',
+  subtitle: "I'm a software engineer & owner at Reactr.",
   cta: 'About',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "I'm a developer with 10 years of experience working on large projects in PHP, JavaScript, React, and WordPress.",
-  paragraphTwo: 'I combine strong technical skills with a solid sense of design, and often prefer to work on the front end.',
-  paragraphThree: 'Skills: PHP, Laravel, JavaScript, ES6+, Node, React, Gulp, Grunt, Gatsby, Command Line, Git, Google Cloud, AWS.',
+  paragraphOne:
+    "I've build building and managing complex WordPress, web, and software projects for over 10 years.",
+  paragraphTwo:
+    'My past projects include Imagely, Photocrati, and NextGEN Gallery (the most popular gallery plugin for WordPress with 30 million downloads). Currently, I run Reactr, WPRealEstate, and ShowThemes.',
+  paragraphThree:
+    'Technologies I work with include PHP, Laravel, JavaScript, ES6+, Node, React, Redux, Gatsby, Gulp, Grunt, Webpack, Git, Docker, Google Cloud, AWS, Lambdas, and more.',
+  paragraphFour: 'Learn more about me here:',
   resume: 'https://github.io/edanzer', // if no resume, the button will not show up
 };
 
@@ -28,10 +32,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'reactr-homepage.png',
+    title: 'Reactr',
+    info: 'This is my main Web agency. We build and manage WPRealEstate, ShowThemes, and other projects. In the past, we also built and managed Imagely, NextGEN Gallery, and Photocrati. We periodically do client work.',
+    info2: '',
+    url: 'https://reactr.io',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'wprealestate-homepage-min.png',
     title: 'WPRealEstate',
-    info: 'WordPress products for real estate professionals. Includes a theme with a library of designs, hundreds of customization options, one-click demo important and more.',
-    info2: 'Also includes a plugin that integrates with MLS services in the United States via the new, restful RESO Web API.',
+    info: 'WPRealEstate provides WordPress products and services for real estate professionals. The WPRealEstate theme includes a library of beautiful designs, hundreds of options, one-click demo important, and more.',
+    info2:
+      'The WPRealEstate plugin allows realtors to manage and display property listings and agents. It also support integration with the MLS service via the new, restful RESO Web API.',
     url: 'https://wprealestate.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -39,18 +53,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'conference-pro.png',
     title: 'ShowThemes',
-    info: 'Sells WordPress products for managing events and conferences. The theme comes with a library of starting designs, powerful customization options, and demo imports.',
-    info2: 'The plugin allows users to create sessions, speakers, calendars, and exhibitors that can all be linked and displayed. Integrates with Eventbrite for ticket sales.',
+    info: 'ShowThemes make a highly tailors WordPress theme and plugin for large conference events. Again, the theme comes with beautiful starting designs and endless customization options.',
+    info2:
+      'The Conference plugin allows users to create sessions, speakers, calendars, and exhibitors that can all be linked and displayed. It also with Eventbrite for ticket sales.',
     url: 'https://showthemes.com',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'r_reactr-homepage.png',
-    title: 'Reactr',
-    info: 'Web development agency that builds WPRealEstate and ShowThemes. It manages a range of other websites and builds, deployes, and manages WordPress websites for clients.',
-    info2: '',
-    url: 'https://reactr.io',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -79,7 +85,7 @@ export const footerData = {
       id: nanoid(),
       name: 'twitter',
       url: 'https://twitter.com/erickdanzer',
-    }
+    },
   ],
 };
 

@@ -1,0 +1,25 @@
+#aside {
+    margin-top: -67px;
+    color: $white-color;
+    background: #334756;
+    padding: 20px 0 1px;
+  
+    @include respond(tab-land) {
+      //padding: 10rem 0;
+      clip-path: none;
+      margin-top: 0;
+      -webkit-clip-path: none;
+    }
+  
+    .aside-wrapper {
+      //margin-top: 3.2rem;
+      //padding: 0 2rem;
+      backface-visibility: hidden;
+  
+      &__text {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+    }
+  }
+  

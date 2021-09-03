@@ -21,6 +21,10 @@
   background-position: center;
   background-size: cover; */
 
+  .container {
+    margin-top: -67px;
+  }
+
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
