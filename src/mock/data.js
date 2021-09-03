@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "I've build building and managing complex web and software projects for over 10 years.",
+    "I've been building and managing complex web and software projects for over 10 years.",
   paragraphTwo:
     'My past projects include Imagely, Photocrati, and NextGEN Gallery (the most popular gallery plugin for WordPress with 30 million downloads). Currently, I run Reactr, WPRealEstate, and ShowThemes.',
   paragraphThree:
